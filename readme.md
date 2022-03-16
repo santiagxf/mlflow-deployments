@@ -2,7 +2,9 @@
 
 This repository contains several examples about how to create and train models with MLFlow to then seemlessly deploy them using built-on tools, both locally on your computer, on a custom target like Kubernetes or in a cloud provider like Azure Machine Learning.
 
-For a detailed explanation about this samples see my post [Effortless models deployment with MLFlow](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-2b1b443ff157).
+For a detailed explanation about this samples see the posts of the series:
+- [Effortless models deployment with MLFlow](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-2b1b443ff157).
+- [Effortless models deployment with MLFlow: Customizing inference](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-customizing-inference-e880cd1c9bdd)
 
 **The following samples are available:**
 - [Cats vs Dogs classification model using FastAI](fastai-dogs-and-cats.ipynb): A sample notebook that creates a computer vision classifier using transfer learning from a RestNet32 model. The framework used is FastAI.
