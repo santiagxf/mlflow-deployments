@@ -1,0 +1,8 @@
+mlflow==1.24.0
+azureml-mlflow==1.39.0
+torch==1.9
+transformers==4.10
+pandas==1.3
+numpy==1.19
+scikit-learn==1.0.1
+jobtools==0.0.11

@@ -1,7 +1,6 @@
 import logging
 import math
-
-from os import PathLike
+import os
 from typing import Union
 
 import pandas as pd
@@ -14,7 +13,8 @@ from hatedetection.text_preparation import split_to_sequences
 
 def _load_pyfunc(data_path):
     classifier = HateDetectionClassifier()
-    classifier.build(data_path, eval=True)
+    classifier.build(os.path.join(data_path, classifier.model_name),
+                     eval=True)
     
     return classifier
 
@@ -46,7 +46,7 @@ class HateDetectionClassifier():
             logging.info("[INFO] Switching to evaluation mode")
             _ = self.model.eval()
     
-    def save_pretrained(self, save_directory: PathLike = None) -> str:
+    def save_pretrained(self, save_directory: os.PathLike = None) -> str:
         """
         Saves the model to a directory. All the required artifacts are persisted.
 
