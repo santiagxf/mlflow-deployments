@@ -10,7 +10,7 @@ import torch
 
 from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.models.auto import AutoModelForSequenceClassification
-from text_preparation import split_to_sequences
+from hatedetection.text_preparation import split_to_sequences
 
 def _load_pyfunc(data_path):
     classifier = HateDetectionClassifier()
