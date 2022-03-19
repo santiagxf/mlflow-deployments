@@ -95,7 +95,7 @@ class HateDetectionClassifier():
                           unique_words=self.split_unique_words,
                           seq_len=self.split_seq_len).explode()
         
-        inputs = self.tokenizer(list(data), padding=True, truncation=True, return_tensors='pt')
+        inputs = self.tokenizer(list(data), padding=True, return_tensors='pt')
         predictions = self.model(**inputs)
         probs = torch.nn.Softmax(dim=1)(predictions.logits)
         
