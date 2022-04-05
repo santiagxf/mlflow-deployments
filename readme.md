@@ -5,7 +5,7 @@ This repository contains several examples about how to create and train models w
 For a detailed explanation about this samples see the posts of the series:
 - [Effortless models deployment with MLFlow](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-2b1b443ff157).
 - [Effortless models deployment with MLFlow: Customizing inference](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-customizing-inference-e880cd1c9bdd).
-- [Effortless models deployment with MLFlow: Packaging models with multiple pieces]()
+- [Effortless models deployment with MLFlow: Packaging models with multiple pieces](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-models-with-multiple-pieces-f38443641c8d)
 
 **The following samples are available:**
 - [Cats vs Dogs classification model using FastAI](dogs-and-cats/fastai-dogs-and-cats.ipynb): A sample notebook that creates a computer vision classifier using transfer learning from a RestNet32 model. The framework used is FastAI.
