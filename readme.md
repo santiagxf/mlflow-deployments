@@ -3,10 +3,10 @@
 This repository contains several examples about how to create and train models with MLFlow to then seemlessly deploy them using built-on tools, both locally on your computer, on a custom target like Kubernetes or in a cloud provider like Azure Machine Learning.
 
 For a detailed explanation about this samples see the posts of the series:
-- [Effortless models deployment with MLFlow](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-2b1b443ff157).
-- [Effortless models deployment with MLFlow: Customizing inference](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-customizing-inference-e880cd1c9bdd).
-- [Effortless models deployment with MLFlow: Packaging models with multiple pieces](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-models-with-multiple-pieces-f38443641c8d)
-- [Effortless models deployment with Mlflow — Packing a NLP product review classifier from HuggingFace](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-packing-a-nlp-product-review-classifier-from-huggingface-13be2650333)
+- [Effortless models deployment with MLFlow — An introduction](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-2b1b443ff157).
+- [Effortless models deployment with MLFlow — Customizing inference](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-customizing-inference-e880cd1c9bdd).
+- [Effortless models deployment with MLFlow — Packaging models with multiple pieces](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-models-with-multiple-pieces-f38443641c8d)
+- [Effortless models deployment with MLFlow — Packing a NLP product review classifier from HuggingFace](https://santiagof.medium.com/effortless-models-deployment-with-mlflow-packing-a-nlp-product-review-classifier-from-huggingface-13be2650333)
 
 **The following samples are available:**
 - [Cats vs Dogs classification model using FastAI](dogs-and-cats/fastai-dogs-and-cats.ipynb): A sample notebook that creates a computer vision classifier using transfer learning from a RestNet32 model. The framework used is FastAI.
