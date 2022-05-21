@@ -1,4 +1,5 @@
-mlflow==1.24.0
-azureml-mlflow==1.39.0
+mlflow==1.26.0
+azureml-mlflow==1.40.0
 implicit
 scikit-learn
+pandas
